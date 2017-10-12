@@ -131,6 +131,47 @@
                 git push origin(默认) master
 
             
+<<<<<<< HEAD
+=======
+        协作：
+            需要创建项目者给协作者权限
+                进入项目 -> settings -> 
+                最左边 Collaborators -> 添加协作者名字
+
+            等待协作者确定
+
+            协作者：
+                1.确定协作
+                2.clone项目
+                3.参与项目开发
+                4.提交上传
+
+            有可能会遇到冲突:
+                git pull (直接把远程的代码覆盖到本地)（不太推荐）
+
+                git fetch (把远程仓库的代码拉取下来不覆盖)
+
+                查看哪里有冲突
+                    git diff master origin/master
+
+                合并冲突
+                    git merge origin/master  (你会发现master变成了matser|MERGEING)
+
+                    人为判断冲突，把冲突内容删除
+
+                    删除完成之后（代码被修改了，需要重新提交）
+
+                    保存到版本区之后，继续push （matser|MERGEING就变成了master）
+                    
+
+
+                 
+                
+
+
+
+
+>>>>>>> origin/master
 
         
 
