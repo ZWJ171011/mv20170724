@@ -131,8 +131,6 @@
                 git push origin(默认) master
 
             
-<<<<<<< HEAD
-=======
         协作：
             需要创建项目者给协作者权限
                 进入项目 -> settings -> 
@@ -162,8 +160,59 @@
                     删除完成之后（代码被修改了，需要重新提交）
 
                     保存到版本区之后，继续push （matser|MERGEING就变成了master）
-                    
 
+        没权限协作：
+            1.找到想参与的项目fork
+            2.把项目克隆到本地 -> 修改 -> 提交
+            3.点击 Pull requests
+            4.点击 new pull request
+            5.点击 Create pull request
+            6.对话点击Create pull request
+            7.等待
+        收到修改消息
+            1.点击修改的消息
+            2.点击files changed（查看修改内容）
+            3.merge pull request(可以回复别人)
+
+
+        拷课件步骤:
+            先删除fork的项目
+            在fork课件项目
+            到本地使用git pull
+
+        
+        分支：
+       	新建分支：
+       		git branch 分支名
+       	
+       	查看分支:
+       		git branch
+       		
+       	切换分支:
+       		git checkout 分支名
+       	
+       	快速创建 + 切换
+       		git checkout -b 分支名
+       		
+       	合并分支:
+       		git merge 分支名
+       		
+       		可能会出现冲突:
+       			人为修改文件 -> 提交
+       		
+       	删除已经合并的分支:
+       		git branch -d 分支名
+       	
+       	删除未合并的分支:
+       		git branch -D 分支名
+       		
+       	查看已经合并的分支:
+       		git branch --merged
+       		
+       	查看未合并的分支:
+       		git branch --no-merged
+       
+        
 
                  
                 
@@ -171,7 +220,6 @@
 
 
 
->>>>>>> origin/master
 
         
 
@@ -192,6 +240,7 @@
     
     
     */
+    git config --list 查看配置
 </script>
 <script src="1.js"></script>
 </body>

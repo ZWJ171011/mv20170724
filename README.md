@@ -1,6 +1,6 @@
-#JavaScript资深全栈 WEB工程师进阶课程
+# JavaScript资深全栈 WEB工程师进阶课程
 
-##1. JS入门基础
+## 1. JS入门基础
 
 + 第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for
 + 第二章：ECMAScript、数据类型、函数传参、作用域、运算符、流程控制
