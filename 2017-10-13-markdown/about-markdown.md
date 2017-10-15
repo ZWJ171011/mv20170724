@@ -273,6 +273,6 @@ Mac 平台
 
 
 来源: 
-[Markdown 简明教程](http://www.jianshu.com/p/7bd23251da0a) -Gnat
+[Markdown 简明教程](http://www.jianshu.com/p/7bd23251da0a) -Gnat  
 [github/younghz](https://github.com/younghz/Markdown)  
 [Markdown语法](http://product.pconline.com.cn/itbk/bkxt/1707/9684244.html)
