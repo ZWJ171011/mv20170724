@@ -148,12 +148,13 @@ Markdown的使用者：
     ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
 ```
 效果：
-> [Google][91]
-> [Yahoo][92]
-> [MSN][93]
-> [91]: http://google.com/
-> [92]: http://search.yahoo.com/ 
-> [93]: http://search.msn.com/
+[Google][91]
+[Yahoo][92]
+[MSN][93]
+
+[91]: http://google.com/
+[92]: http://search.yahoo.com/ 
+[93]: http://search.msn.com/
 
 ### 引用
 使用 > 符号，进行引用
