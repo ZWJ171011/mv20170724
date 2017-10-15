@@ -16,9 +16,9 @@ Markdown是一种**标记语言**，它的目标是实现「**易读易写**」�
 ### 2. 谁创造了它？
 它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计。
 
-![Aaron Swartz](https://github.com/chen-s-y/mv20170724/2017-10-13-markdown/about-markdown/Aaron_Swartz.jpg)
+![Aaron Swartz](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/Aaron%20Swartz.jpg)
 
-![John Gruber](https://github.com/chen-s-y/mv20170724/2017-10-13-markdown/about-markdown/John Gruber.jpg)
+![John Gruber](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/John%20Gruber.jpg)
 
 ps: **Aaron Swartz**位于*2013年1月11日*自杀,有着**开挂**一般人生经历的程序员。维基百科对他的[介绍](http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)是：**软件工程师、作家、政治组织者、互联网活动家、维基百科人**。    
 
