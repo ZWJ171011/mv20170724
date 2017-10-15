@@ -148,13 +148,16 @@ Markdown的使用者：
     ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
 ```
 效果：
-[Google][91]
-[Yahoo][92]
-[MSN][93]
+> [**无效链接**][null-link]
+> [*有效链接*][csy-link]
+> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
-[91]: http://google.com/
-[92]: http://search.yahoo.com/ 
-[93]: http://search.msn.com/
+注意： 链接必须另起一行(即：不能在同一个段落中)
+> [null-link]: chrome://not-a-link
+> [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"
+> [1]: http://google.com/        "Google"
+> [2]: http://search.yahoo.com/  "Yahoo Search"
+> [3]: http://search.msn.com/    "MSN Search"
 
 ### 引用
 使用 > 符号，进行引用
