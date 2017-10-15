@@ -18,10 +18,12 @@ Markdown是一种**标记语言**，它的目标是实现「**易读易写**」�
 它由[**Aaron Swartz**](http://www.aaronsw.com/)和[**John Gruber**](https://daringfireball.net/)共同设计。
 
 ![Aaron Swartz](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/Aaron%20Swartz.jpg)
+
 **Aaron Swartz**于*2013年1月11日*自杀,有着**开挂**一般人生经历的程序员。维基百科对他的[介绍](http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)是：**软件工程师、作家、政治组织者、互联网活动家、维基百科人**。    
 
 ![John Gruber](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/John%20Gruber.jpg)
-**John Gruber**，知名独立博主，Markdown创始人，UI设计师，苹果狂热粉。相比于Markdown创始人这个头衔，我们更了解Gruber对苹果的狂热，和由狂热外化出来的Daring Fireball博客（一个每年可以赚取 50 万美元的博客）。博客上还提供下载一些由 Gruber 自己开发的软件。最初 Gruber 只是利用空闲时间打理，但从 2006 年 4 月开始，运作这个博客成了 Gruber 的全职工作，并通过收取会费、投放广告、售卖 T 恤等方式获得收入。
+
+**John Gruber**，知名独立博主，Markdown创始人，UI设计师，苹果狂热粉。相比于Markdown创始人这个头衔，我们更了解Gruber对苹果的狂热，和由狂热外化出来的[Daring Fireball](https://daringfireball.net/)博客（一个每年可以赚取 50 万美元的博客）。博客上还提供下载一些由 Gruber 自己开发的软件。最初 Gruber 只是利用空闲时间打理，但从 2006 年 4 月开始，运作这个博客成了 Gruber 的全职工作，并通过收取会费、投放广告、售卖 T 恤等方式获得收入。
 
 ### 3. 为什么要使用它？
 + 它是易读（看起开舒服）、易写（语法简单）、易更改**纯文本**。处处体现着**极简主义**的影子。
