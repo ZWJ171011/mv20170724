@@ -151,10 +151,10 @@ Markdown的使用者：
 > [*有效链接*][csy-link]  
 > [csy-link]: http://baidu.com/  
 >
-> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-> [1]: http://google.com/
-> [2]: http://search.yahoo.com/ 
-> [3]: http://search.msn.com/
+> I get 10 times more traffic from [Google][91] than from [Yahoo][92] or [MSN][93].  
+> [91]: http://google.com/
+> [92]: http://search.yahoo.com/ 
+> [93]: http://search.msn.com/
 
 ### 引用
 使用 > 符号，进行引用
