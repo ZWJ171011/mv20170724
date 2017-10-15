@@ -57,7 +57,7 @@ Markdown的使用者：
 - 表格
 
 #### 标题
-使用`#`. 可表示1-6级标题, 即：
+使用`#` 可表示1-6级标题, 即：
 ``` bash
     # 一级标题
     ## 二级标题
@@ -83,7 +83,7 @@ Markdown的使用者：
 效果：
 > *斜体* 或 _斜体_  
 > **加粗** 或 __加粗__  
-> ~~ 删除线 ~~
+> ~~删除线~~
 
 #### 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
@@ -127,7 +127,7 @@ Markdown的使用者：
     ![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
 ```
 效果：
-> [百度](http://www.baidu.com/ "Title")
+> [百度](http://www.baidu.com/ "Title")  
 > ![党政机关](http://dcs.conac.cn/image/red.png "Alt text")
 
 高级用法
@@ -148,12 +148,12 @@ Markdown的使用者：
     ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
 ```
 效果：
-> [**无效链接**][null-link]
-> [null-link]: chrome://not-a-link
-> [*有效链接*][csy-link]
-> [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"
+> [**无效链接**][null-link]  
+> [null-link]: chrome://not-a-link  
+> [*有效链接*][csy-link]  
+> [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"  
 >
-> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
 > [1]: http://google.com/        "Google"
 > [2]: http://search.yahoo.com/  "Yahoo Search"
 > [3]: http://search.msn.com/    "MSN Search"
