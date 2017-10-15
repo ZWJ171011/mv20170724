@@ -148,10 +148,9 @@ Markdown的使用者：
     ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
 ```
 效果：
-> [*有效链接*][csy-link]  
-> [csy-link]: http://baidu.com/  
->
-> I get 10 times more traffic from [Google][91] than from [Yahoo][92] or [MSN][93].  
+> [Google][91]
+> [Yahoo][92]
+> [MSN][93]
 > [91]: http://google.com/
 > [92]: http://search.yahoo.com/ 
 > [93]: http://search.msn.com/
