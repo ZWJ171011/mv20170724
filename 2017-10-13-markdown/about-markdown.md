@@ -89,7 +89,7 @@ Markdown的使用者：
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
 
 #### 列表
-使用`.`、`+`、或`-`标记无序列表，如：
+使用`+`、或`-`标记无序列表，使用`1.`数字标记有序列表，如：
 ``` bash
     1. 第一节
         + 第一节第一课
@@ -99,8 +99,8 @@ Markdown的使用者：
         - 第三节第一课
         - 第三节第二课
         - 第三节第三课
-            . 第三节第三课第一段
-            . 第三节第三课第二段
+            - 第三节第三课第一段
+            - 第三节第三课第二段
     4. 第四节
     5. 第五节
 ```
@@ -113,8 +113,8 @@ Markdown的使用者：
     - 第三节第一课
     - 第三节第二课
     - 第三节第三课
-        * 第三节第三课第一段
-        * 第三节第三课第二段
+        - 第三节第三课第一段
+        - 第三节第三课第二段
 4. 第四节
 5. 第五节
 
@@ -127,8 +127,8 @@ Markdown的使用者：
     ![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
 ```
 效果：
-> [百度](http://www.baidu.com/ "Title")  
-> ![党政机关](http://dcs.conac.cn/image/red.png "Alt text")
+> 链接: [百度](http://www.baidu.com/ "百度")  
+> 图片: ![党政机关](http://dcs.conac.cn/image/red.png "党政机关")
 
 高级用法
 ``` bash
@@ -137,7 +137,7 @@ Markdown的使用者：
     [*有效链接*][csy-link]
     [csy-link]: http://www.baidu.com/ "鼠标滑入的时候, 显示该字段"
 
-    I get 10 times more traffic from [Google] [1] than from [Yahoo] [2] or [MSN] [3].
+    I get 10times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
     [1]: http://google.com/        "Google"
     [2]: http://search.yahoo.com/  "Yahoo Search"
     [3]: http://search.msn.com/    "MSN Search"
