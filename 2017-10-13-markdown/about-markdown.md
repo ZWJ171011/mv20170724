@@ -11,11 +11,11 @@
 
 ## 内容
 ### 1. Markdown是什么？
-Markdown是一种**标记语言**，它的目标是实现「**易读易写**」。
-可以简单理解成为，用markdown语法编写的内容转换成html的**工具**。
+Markdown是一种轻量级「**标记语言**」，它的目标是实现「**易读易写**」。  
+可以简单理解成为，用markdown语法编写的内容转换成html的「**工具**」。
 
 ### 2. 谁创造了它？
-它由[**Aaron Swartz**](http://www.aaronsw.com/)和[**John Gruber**](https://daringfireball.net/)共同设计。
+它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计。
 
 ![Aaron Swartz](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/Aaron%20Swartz.jpg)
 
@@ -23,7 +23,7 @@ Markdown是一种**标记语言**，它的目标是实现「**易读易写**」�
 
 ![John Gruber](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/John%20Gruber.jpg)
 
-**John Gruber**，知名独立博主，Markdown创始人，UI设计师，苹果狂热粉。相比于Markdown创始人这个头衔，我们更了解Gruber对苹果的狂热，和由狂热外化出来的[Daring Fireball](https://daringfireball.net/)博客（一个每年可以赚取 50 万美元的博客）。博客上还提供下载一些由 Gruber 自己开发的软件。最初 Gruber 只是利用空闲时间打理，但从 2006 年 4 月开始，运作这个博客成了 Gruber 的全职工作，并通过收取会费、投放广告、售卖 T 恤等方式获得收入。
+**John Gruber**，知名独立博主，Markdown创始人，UI设计师，苹果狂热粉。相比于Markdown创始人这个头衔，Gruber更出名的是对苹果的狂热，和由狂热外化出来的[Daring Fireball](https://daringfireball.net/)博客（一个每年可以赚取 50 万美元的博客）。博客上还提供下载一些由 Gruber 自己开发的软件。最初 Gruber 只是利用空闲时间打理，但从 2006 年 4 月开始，运作这个博客成了 Gruber 的全职工作，并通过收取会费、投放广告、售卖 T 恤等方式获得收入。
 
 ### 3. 为什么要使用它？
 + 它是易读（看起开舒服）、易写（语法简单）、易更改**纯文本**。处处体现着**极简主义**的影子。
@@ -48,6 +48,7 @@ Markdown的使用者：
 ### 5. 怎么使用？
 - 标题
 - 加粗，斜体，高亮
+- 段落
 - 列表
 - 图片，链接
 - 引用
@@ -73,7 +74,19 @@ Markdown的使用者：
 > ##### 五级标题   
 > ###### 六级标题
 
-#### 加粗，斜体，高亮
+#### 斜体，加粗，高亮
+``` bash
+*斜体*, 或 _斜体_
+**加粗**, 或 __加粗__
+==高亮==
+```
+效果：
+> *斜体* 或 _斜体_
+> **加粗** 或 __加粗__
+> ==高亮==
+
+#### 段落
+段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
 #### 列表
 #### 图片，链接
 #### 引用
