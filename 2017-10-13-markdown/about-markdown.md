@@ -59,12 +59,12 @@ Markdown的使用者：
 #### 标题
 使用`#`. 可表示1-6级标题, 即：
 ``` bash
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
+    # 一级标题
+    ## 二级标题
+    ### 三级标题
+    #### 四级标题
+    ##### 五级标题
+    ###### 六级标题
 ```
 效果：
 > # 一级标题   
@@ -74,38 +74,140 @@ Markdown的使用者：
 > ##### 五级标题   
 > ###### 六级标题
 
-#### 斜体，加粗，高亮
+#### 斜体，加粗
 ``` bash
-*斜体*, 或 _斜体_
-**加粗**, 或 __加粗__
-==高亮==
+    *斜体*, 或 _斜体_
+    **加粗**, 或 __加粗__
+    ~~ 删除线 ~~
 ```
 效果：
 > *斜体* 或 _斜体_  
 > **加粗** 或 __加粗__  
-> ==高亮==  
-
-
-**粗体**
-
-_斜体_
-
-==高亮==
+> ~~ 删除线 ~~
 
 #### 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
+
 #### 列表
-#### 图片，链接
-#### 引用
-#### 代码
-如果要标记一小段行内代码，你可以用 `\`` 反引号把它包起来，例如：
+使用`*`、`+`、或`-`标记无序列表，如：
 ``` bash
-Use the `printf()` function.
+    1. 第一节
+        + 第一节第一课
+        + 第一节第二课
+    2. 第二节
+    3. 第三节
+        - 第三节第一课
+        - 第三节第二课
+        - 第三节第三课
+            * 第三节第三课第一段
+            * 第三节第三课第二段
+    4. 第四节
+    5. 第五节
+```
+效果：  
+1. 第一节
+    + 第一节第一课
+    + 第一节第二课
+2. 第二节
+3. 第三节
+    - 第三节第一课
+    - 第三节第二课
+    - 第三节第三课
+        * 第三节第三课第一段
+        * 第三节第三课第二段
+4. 第四节
+5. 第五节
+
+#### 图片，链接
+    + 链接语法：[]()
+    + 图片语法：![]()
+
+``` bash
+    [百度](http://www.baidu.com/ "链接描述(可省略)")
+    ![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
+```
+效果：
+> [百度](http://www.baidu.com/ "Title")
+> ![党政机关](http://dcs.conac.cn/image/red.png "Alt text")
+
+高级用法
+``` bash
+    [**链接**][null-link]
+    [null-link]: chrome://not-a-link
+    [*有效链接*][csy-link]
+    [csy-link]: http://www.baidu.com/ "鼠标滑入的时候, 显示该字段"
+
+    I get 10 times more traffic from [Google] [1] than from [Yahoo] [2] or [MSN] [3].
+    [1]: http://google.com/        "Google"
+    [2]: http://search.yahoo.com/  "Yahoo Search"
+    [3]: http://search.msn.com/    "MSN Search"
+
+    ![Alt text][id]
+    [id]: url/to/image  "Optional title attribute"
+
+    ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
+```
+效果：
+> [**无效链接**][null-link]
+> [null-link]: chrome://not-a-link
+> [*有效链接*][csy-link]
+> [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"
+>
+> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+> [1]: http://google.com/        "Google"
+> [2]: http://search.yahoo.com/  "Yahoo Search"
+> [3]: http://search.msn.com/    "MSN Search"
+
+#### 引用
+使用 > 符号，进行引用
+``` bash
+    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+    consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+    > 
+    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+    > id sem consectetuer libero luctus adipiscing.
+    > > id sem consectetuer libero luctus adipiscing.
+```
+效果：
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+> > id sem consectetuer libero luctus adipiscing.
+
+#### 代码
+如果要标记一小段行内代码，你可以用 ` 反引号把它包起来，例如：
+``` bash
+    Use the `printf()` function.
 ```
 效果：
 > Use the `printf()` function.
 
 #### 代码区块
+代码块就是将源码直接进行展示，可在开始的 ``` 后面加上代码语种名称
+``` javascript
+    var str = "hello world!";
+    alert(str);
+```
+
+要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以,
+Markdown 会用 `<pre>` 和 `<code>` 标签来把代码区块包起来。
+
+    这是一个普通段落：
+
+        这是一个代码区块。
+
+会被转换为：
+
+    <p>这是一个普通段落：</p>
+
+    <pre><code>这是一个代码区块。</code></pre>
+
 #### 表格
 
 
