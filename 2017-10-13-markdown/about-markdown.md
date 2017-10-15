@@ -133,11 +133,12 @@ Markdown的使用者：
 高级用法
 ``` bash
     [**链接**][null-link]
-    [null-link]: chrome://not-a-link
     [*有效链接*][csy-link]
-    [csy-link]: http://www.baidu.com/ "鼠标滑入的时候, 显示该字段"
-
     I get 10times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+
+    注意： 链接必须另起一行(即：不能在同一个段落中)
+    [csy-link]: http://www.baidu.com/ "鼠标滑入的时候, 显示该字段"
+    [null-link]: chrome://not-a-link
     [1]: http://google.com/        "Google"
     [2]: http://search.yahoo.com/  "Yahoo Search"
     [3]: http://search.msn.com/    "MSN Search"
@@ -197,6 +198,13 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 ```
 
 ### 表格
+用`|`表示表格纵向边界，表头和内容用`-`隔开，用`:`进行对齐设置，两边都有表示居中，默认左对齐。
+
+学号 | 姓名 | 成绩
+---: | :--- | :---:
+001 | 张三 | 60
+02 | 阿尔及利亚 | 898998
+
 
 
 
