@@ -85,6 +85,14 @@ Markdown的使用者：
 > **加粗** 或 __加粗__  
 > ~~删除线~~
 
+``` 
+    分割线
+    使用三个或者以上 * - _
+```
+效果：
+> ---
+
+
 ### 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
 
@@ -124,7 +132,7 @@ Markdown的使用者：
 
 ``` bash
     [百度](http://www.baidu.com/ "链接描述(可省略)")  
-    \![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
+    ![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
 ```
 效果：
 > 链接: [百度](http://www.baidu.com/ "百度")  
@@ -191,7 +199,9 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > Use the `printf()` function.
 
 ### 代码区块
-代码块就是将源码直接进行展示，可在开始的 ``` 后面加上代码语种名称
+1. 只要简单地缩进 4 个空格或是 1 个制表符就可以
+
+2. 将源码直接进行展示，可在开始的 ``` 后面加上代码语种名称
 ``` javascript
     var str = "hello world!";
     alert(str);
@@ -208,24 +218,14 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 9 | 李大 | 90
 
 
-
-
-
-
 ## 6. 尝试一下
-+ **Chrome**下的插件诸如`stackedit`与`markdown-here`等非常方便，也不用担心平台受限。
-+ **在线**的dillinger.io评价也不错   
-+ **Windowns**下的MarkdownPad也用过，不过免费版的体验不是很好。    
-+ **Mac**下的Mou是国人贡献的，口碑很好。
-+ **Linux**下的ReText不错。   
+### Markdown 免费编辑器
 
-
-*********************************************************
-# Markdown 免费编辑器
+- [GitHub Atom][11]
+- [vscode][22]
 
 Windows 平台
 
-- [GitHub Atom][11]
 - [MarkdownPad][12]
 - [MarkPad][13]
 
@@ -235,7 +235,7 @@ Linux 平台
 
 Mac 平台
 
-- [Mou][15]
+- [Mou][15] 国人贡献的，口碑很好
 
 在线编辑器
 
@@ -245,10 +245,12 @@ Mac 平台
 浏览器插件
 
 - [MaDe][18] (Chrome)
+- `stackedit`(Chrome)
+- `markdown-here`(Chrome)
 
-高级应用(Sublime Text 2 + MarkdownEditing 教程)
+高级应用(Sublime Text 3 + MarkdownEditing 教程)
 
-- [Sublime Text 2][19]
+- [Sublime Text 3][19]
 - [MarkdownEditing][20]
 - [教程][21]
 
@@ -260,9 +262,10 @@ Mac 平台
 [16]: http://markable.in/
 [17]: http://dillinger.io/
 [18]: https://chrome.google.com/webstore/detail/oknndfeeopgpibecfjljjfanledpbkog
-[19]: http://www.sublimetext.com/2
+[19]: http://www.sublimetext.com/3
 [20]: http://ttscoff.github.com/MarkdownEditing/
 [21]: http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/
+[22]: https://code.visualstudio.com/
 
 
 
