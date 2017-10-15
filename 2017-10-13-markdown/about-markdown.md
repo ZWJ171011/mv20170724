@@ -148,15 +148,14 @@ Markdown的使用者：
     ![](http://img3.douban.com/mpic/s1108264.jpg "title text")
 ```
 效果：
-> [**无效链接**][null-link]  
-> [null-link]: chrome://not-a-link  
-> [*有效链接*][csy-link]  
-> [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"  
->
-> I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-> [1]:http://google.com/        "Google"
-> [2]:http://search.yahoo.com/  "Yahoo Search"
-> [3]:http://search.msn.com/    "MSN Search"
+[**无效链接**][null-link]  
+[null-link]: chrome://not-a-link  
+[*有效链接*][csy-link]  
+[csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"  
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
 
 ### 引用
 使用 > 符号，进行引用
@@ -195,19 +194,6 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
     alert(str);
 ```
 
-要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以,
-Markdown 会用 `<pre>` 和 `<code>` 标签来把代码区块包起来。
-
-    这是一个普通段落：
-
-        这是一个代码区块。
-
-会被转换为：
-
-    <p>这是一个普通段落：</p>
-
-    <pre><code>这是一个代码区块。</code></pre>
-
 ### 表格
 
 
@@ -222,7 +208,49 @@ Markdown 会用 `<pre>` 和 `<code>` 标签来把代码区块包起来。
 + **Linux**下的ReText不错。   
 
 
+*********************************************************
+# Markdown 免费编辑器
 
+Windows 平台
+
+- [GitHub Atom][11]
+- [MarkdownPad][12]
+- [MarkPad][13]
+
+Linux 平台
+
+- [ReText][14]
+
+Mac 平台
+
+- [Mou][15]
+
+在线编辑器
+
+- [Markable.in][16]
+- [Dillinger.io][17]
+
+浏览器插件
+
+- [MaDe][18] (Chrome)
+
+高级应用(Sublime Text 2 + MarkdownEditing 教程)
+
+- [Sublime Text 2][19]
+- [MarkdownEditing][20]
+- [教程][21]
+
+[11]: https://atom.io/
+[12]: http://markdownpad.com/
+[13]: http://code52.org/DownmarkerWPF/
+[14]: http://sourceforge.net/p/retext/home/ReText/
+[15]: http://mouapp.com/
+[16]: http://markable.in/
+[17]: http://dillinger.io/
+[18]: https://chrome.google.com/webstore/detail/oknndfeeopgpibecfjljjfanledpbkog
+[19]: http://www.sublimetext.com/2
+[20]: http://ttscoff.github.com/MarkdownEditing/
+[21]: http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/
 
 
 
