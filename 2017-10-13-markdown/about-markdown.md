@@ -1,7 +1,7 @@
 来源： http://product.pconline.com.cn/itbk/bkxt/1707/9684244.html
 # Markdown学习笔记
 
-## 目录
+# 目录
 > 1. Markdown是什么？
 > 2. 谁创造了它？
 > 3. 为什么要使用它？
@@ -9,12 +9,12 @@
 > 5. 怎么使用？
 > 6. 尝试一下
 
-## 内容
-### 1. Markdown是什么？
+# 内容
+## 1. Markdown是什么？
 Markdown是一种轻量级「**标记语言**」，它的目标是实现「**易读易写**」。  
 可以简单理解成为，用markdown语法编写的内容转换成html的「**工具**」。
 
-### 2. 谁创造了它？
+## 2. 谁创造了它？
 它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计。
 
 ![Aaron Swartz](https://github.com/chen-s-y/mv20170724/blob/master/2017-10-13-markdown/about-markdown/Aaron%20Swartz.jpg)
@@ -25,7 +25,7 @@ Markdown是一种轻量级「**标记语言**」，它的目标是实现「**易
 
 **John Gruber**，知名独立博主，Markdown创始人，UI设计师，苹果狂热粉。相比于Markdown创始人这个头衔，Gruber更出名的是对苹果的狂热，和由狂热外化出来的[Daring Fireball](https://daringfireball.net/)博客（一个每年可以赚取 50 万美元的博客）。博客上还提供下载一些由 Gruber 自己开发的软件。最初 Gruber 只是利用空闲时间打理，但从 2006 年 4 月开始，运作这个博客成了 Gruber 的全职工作，并通过收取会费、投放广告、售卖 T 恤等方式获得收入。
 
-### 3. 为什么要使用它？
+## 3. 为什么要使用它？
 + 它是易读（看起开舒服）、易写（语法简单）、易更改**纯文本**。处处体现着**极简主义**的影子。
 + 兼容HTML，可以转换为HTML格式发布。
 + 跨平台使用。
@@ -33,7 +33,7 @@ Markdown是一种轻量级「**标记语言**」，它的目标是实现「**易
 + 更方便清晰的组织你的电子邮件。（Markdown-here, Airmail）
 + 摆脱Word（我不是认真的）。
 
-### 4. 谁在用？
+## 4. 谁在用？
 Markdown的使用者：
 + GitHub
 + 简书
@@ -45,7 +45,7 @@ Markdown的使用者：
 + coding
 + 公司内部文档，等等
 
-### 5. 怎么使用？
+## 5. 怎么使用？
 - 标题
 - 加粗，斜体，高亮
 - 段落
@@ -56,7 +56,7 @@ Markdown的使用者：
 - 代码区块
 - 表格
 
-#### 标题
+### 标题
 使用`#` 可表示1-6级标题, 即：
 ``` bash
     # 一级标题
@@ -74,7 +74,7 @@ Markdown的使用者：
 > ##### 五级标题   
 > ###### 六级标题
 
-#### 斜体，加粗
+### 斜体，加粗
 ```
     *斜体*, 或 _斜体_
     **加粗**, 或 __加粗__
@@ -85,10 +85,10 @@ Markdown的使用者：
 > **加粗** 或 __加粗__  
 > ~~删除线~~
 
-#### 段落
+### 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
 
-#### 列表
+### 列表
 使用`+`、或`-`标记无序列表，使用`1.`数字标记有序列表，如：
 ``` bash
     1. 第一节
@@ -118,13 +118,13 @@ Markdown的使用者：
 4. 第四节
 5. 第五节
 
-#### 图片，链接
+### 图片，链接
 + 链接语法：[]()
 + 图片语法：![]()
 
 ``` bash
     [百度](http://www.baidu.com/ "链接描述(可省略)")  
-    ![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
+    \![图片描述](http://dcs.conac.cn/image/red.png "描述(可省略)")
 ```
 效果：
 > 链接: [百度](http://www.baidu.com/ "百度")  
@@ -154,11 +154,11 @@ Markdown的使用者：
 > [csy-link]: http://baidu.com/ "鼠标滑入的时候, 显示该字段"  
 >
 > I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-> [1]: http://google.com/        "Google"
-> [2]: http://search.yahoo.com/  "Yahoo Search"
-> [3]: http://search.msn.com/    "MSN Search"
+> [1]:http://google.com/        "Google"
+> [2]:http://search.yahoo.com/  "Yahoo Search"
+> [3]:http://search.msn.com/    "MSN Search"
 
-#### 引用
+### 引用
 使用 > 符号，进行引用
 ``` bash
     > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
@@ -180,7 +180,7 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > id sem consectetuer libero luctus adipiscing.
 > > id sem consectetuer libero luctus adipiscing.
 
-#### 代码
+### 代码
 如果要标记一小段行内代码，你可以用 ` 反引号把它包起来，例如：
 ``` bash
     Use the `printf()` function.
@@ -188,7 +188,7 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 效果：
 > Use the `printf()` function.
 
-#### 代码区块
+### 代码区块
 代码块就是将源码直接进行展示，可在开始的 ``` 后面加上代码语种名称
 ``` javascript
     var str = "hello world!";
@@ -208,13 +208,13 @@ Markdown 会用 `<pre>` 和 `<code>` 标签来把代码区块包起来。
 
     <pre><code>这是一个代码区块。</code></pre>
 
-#### 表格
+### 表格
 
 
 
 
 
-### 6. 尝试一下
+## 6. 尝试一下
 + **Chrome**下的插件诸如`stackedit`与`markdown-here`等非常方便，也不用担心平台受限。
 + **在线**的dillinger.io评价也不错   
 + **Windowns**下的MarkdownPad也用过，不过免费版的体验不是很好。    
